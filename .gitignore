@@ -1,0 +1,9 @@
+*.bag
+*.catkin_tools
+*.catkin_workspace
+build/
+devel/
+logs/
+*.rosinstall
+*.rosinstall.bak
+

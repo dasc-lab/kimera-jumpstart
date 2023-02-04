@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  kimera:
+    build: .
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./catkin_ws:/root/catkin_ws
+    environment:
+      - DISPLAY=$DISPLAY
+    privileged: true
+    tty: true
+    network_mode: "host"
