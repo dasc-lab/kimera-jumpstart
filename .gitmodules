@@ -1,0 +1,51 @@
+[submodule "catkin_ws/src/Kimera-VIO-ROS"]
+	path = catkin_ws/src/Kimera-VIO-ROS
+	url = https://github.com/MIT-SPARK/Kimera-VIO-ROS.git
+[submodule "catkin_ws/src/Kimera-VIO"]
+	path = catkin_ws/src/Kimera-VIO
+	url = https://github.com/MIT-SPARK/Kimera-VIO.git
+[submodule "catkin_ws/src/catkin_simple"]
+	path = catkin_ws/src/catkin_simple
+	url = https://github.com/catkin/catkin_simple.git
+[submodule "catkin_ws/src/cmake_external_project_catkin"]
+	path = catkin_ws/src/cmake_external_project_catkin
+	url = https://github.com/zurich-eye/cmake_external_project_catkin.git
+[submodule "catkin_ws/src/dbow2_catkin"]
+	path = catkin_ws/src/dbow2_catkin
+	url = https://github.com/marcusabate/dbow2_catkin.git
+[submodule "catkin_ws/src/disparity_image_proc"]
+	path = catkin_ws/src/disparity_image_proc
+	url = https://github.com/ToniRV/disparity_image_proc.git
+[submodule "catkin_ws/src/gflags_catkin"]
+	path = catkin_ws/src/gflags_catkin
+	url = https://github.com/ethz-asl/gflags_catkin.git
+[submodule "catkin_ws/src/glog_catkin"]
+	path = catkin_ws/src/glog_catkin
+	url = https://github.com/ethz-asl/glog_catkin.git
+[submodule "catkin_ws/src/gtsam"]
+	path = catkin_ws/src/gtsam
+	url = https://github.com/borglab/gtsam.git
+[submodule "catkin_ws/src/image_undistort"]
+	path = catkin_ws/src/image_undistort
+	url = https://github.com/ethz-asl/image_undistort.git
+[submodule "catkin_ws/src/imu_tools"]
+	path = catkin_ws/src/imu_tools
+	url = https://github.com/CCNYRoboticsLab/imu_tools.git
+[submodule "catkin_ws/src/kimera_rviz_markers"]
+	path = catkin_ws/src/kimera_rviz_markers
+	url = https://github.com/ToniRV/kimera_rviz_markers.git
+[submodule "catkin_ws/src/mesh_rviz_plugins"]
+	path = catkin_ws/src/mesh_rviz_plugins
+	url = https://github.com/ToniRV/mesh_rviz_plugins.git
+[submodule "catkin_ws/src/opencv3_catkin"]
+	path = catkin_ws/src/opencv3_catkin
+	url = https://github.com/ethz-asl/opencv3_catkin.git
+[submodule "catkin_ws/src/opengv_catkin"]
+	path = catkin_ws/src/opengv_catkin
+	url = https://github.com/ToniRV/opengv_catkin.git
+[submodule "catkin_ws/src/pose_graph_tools"]
+	path = catkin_ws/src/pose_graph_tools
+	url = https://github.com/MIT-SPARK/pose_graph_tools.git
+[submodule "catkin_ws/src/Kimera-RPGO"]
+	path = catkin_ws/src/Kimera-RPGO
+	url = https://github.com/MIT-SPARK/Kimera-RPGO.git
