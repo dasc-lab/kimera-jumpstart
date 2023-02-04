@@ -1,9 +1,9 @@
 [submodule "catkin_ws/src/Kimera-VIO-ROS"]
 	path = catkin_ws/src/Kimera-VIO-ROS
-	url = https://github.com/MIT-SPARK/Kimera-VIO-ROS.git
+	url = git@github.com:dasc-lab/Kimera-VIO-ROS.git
 [submodule "catkin_ws/src/Kimera-VIO"]
 	path = catkin_ws/src/Kimera-VIO
-	url = https://github.com/MIT-SPARK/Kimera-VIO.git
+	url = git@github.com:dasc-lab/Kimera-VIO.git
 [submodule "catkin_ws/src/catkin_simple"]
 	path = catkin_ws/src/catkin_simple
 	url = https://github.com/catkin/catkin_simple.git
