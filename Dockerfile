@@ -75,3 +75,12 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 RUN echo 'source /opt/ros/melodic/setup.bash' >> ~/.bashrc
 RUN echo 'source /root/catkin_ws/devel/setup.bash' >> ~/.bashrc
 #RUN source ~/catkin_ws/devel/setup.bash
+
+
+## add useful commands
+RUN echo 'alias kimera_camera="roslaunch kimera_vio_ros rs_camera.launch"' >> ~/.bashrc
+RUN echo 'alias kimera_launch="roslaunch kimera_vio_ros kimera_vio_ros_realsense_IR.launch"' >> ~/.bashrc
+RUN echo 'alias kimera_rviz="rviz -d $(rospack find kimera_vio_ros)/rviz/kimera_vio_euroc.rviz"' >> ~/.bashrc
+
+
+RUN apt-get update && apt-get install ros-melodic-rqt-common-plugins -y
